@@ -12,6 +12,6 @@ $faker = Factory::create();
 
 $app = new App();
 $app->get('/', static function () use ($faker) {
-	return Response::plaintext($faker->sentence());
+	return Response::plaintext($faker->sentence() . "\n");
 });
 $app->run();
