@@ -1,0 +1,20 @@
+#OS
+.DS_*
+
+# Composer
+/vendor
+composer.lock
+auth.json
+
+# Log, cache, and tmp files
+*.cache
+*.log
+*.meta
+tmp/
+
+# Dotenv
+.env.*
+!.env
+
+# Docker
+docker-composer.override.yml

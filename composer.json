@@ -1,0 +1,29 @@
+{
+    "name": "tfirdaus/framework-x",
+    "description": "Framework X tests and benchmarks",
+    "require": {
+        "php": "^8.3",
+        "clue/framework-x": "^0.16.0"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "syntatis/coding-standard": "^1.2"
+    },
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"scripts-descriptions": {
+		"scope": "Scope the autoloader to prevent conflicts with other plugins",
+		"phpcs": "Check the codebase for coding standards violations",
+		"phpcs:fix": "Fix coding standards violations"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true,
+			"bamarni/composer-bin-plugin": true
+		}
+	}
+}
