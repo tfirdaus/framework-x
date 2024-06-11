@@ -2,7 +2,7 @@
     "name": "tfirdaus/framework-x",
     "description": "Framework X tests and benchmarks",
     "require": {
-        "php": ">=8.0",
+        "php": ">=8.3",
         "clue/framework-x": "^0.16.0"
     },
     "require-dev": {
