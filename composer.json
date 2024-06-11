@@ -3,7 +3,8 @@
     "description": "Framework X tests and benchmarks",
     "require": {
         "php": ">=8.3",
-        "clue/framework-x": "^0.16.0"
+        "clue/framework-x": "^0.16.0",
+        "fakerphp/faker": "^1.23"
     },
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
