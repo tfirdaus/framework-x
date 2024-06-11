@@ -2,7 +2,7 @@
 .DS_*
 
 # Composer
-/vendor
+vendor/
 composer.lock
 auth.json
 
@@ -15,6 +15,3 @@ tmp/
 # Dotenv
 .env.*
 !.env
-
-# Docker
-docker-composer.override.yml
