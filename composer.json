@@ -4,7 +4,8 @@
     "require": {
         "php": ">=8.3",
         "clue/framework-x": "^0.16.0",
-        "fakerphp/faker": "^1.23"
+        "fakerphp/faker": "^1.23",
+        "twig/twig": "^3.0"
     },
     "require-dev": {
         "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
