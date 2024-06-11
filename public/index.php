@@ -9,7 +9,7 @@ use Twig\Loader\FilesystemLoader;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 
-$users = [['name' => 'Alice'], ['name' => 'Bob']];
+$users = json_decode(file_get_contents(dirname(__DIR__) . '/resources/data/users.json'), true);
 $loader = new FilesystemLoader(dirname(__DIR__) . '/resources/templates');
 $twig = new Environment($loader, ['cache' => dirname(__DIR__) . '/resources/templates/.cache']);
 $template = $twig->load('index.twig');
